@@ -97,7 +97,6 @@ export default function SellForm() {
 
       if (response.status === 201) {
         toast.success("Product created successfully!");
-        router.push("/dasboard/products");
       } else {
         toast.error("Failed to create product!");
       }
