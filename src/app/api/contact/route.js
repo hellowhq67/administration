@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import Contact from "@/models/contact"; // Import the Contact model
+import Contact from "@/models/contact";
+ // Import the Contact model
 import connectMongoDB from "@/db/db";
 export async function GET() {
     try {

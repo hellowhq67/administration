@@ -68,29 +68,7 @@ export default function SellForm() {
           tag: [tags],
         }),
       });
-      console.log("JSON Payload:", JSON.stringify({
-        userId: "STAF ID",
-        userName: "STAFPRODUCTS",
-        shippings: shipment, // Include shipping charges
-        productImage1: imageUrl,
-        productImage2: imageUrl2,
-        productImage3: imageUrl3,
-        productImage4: imageUrl4,
-        productImage5: imageUrl5,
-        designers: selectedDesigner,
-        productName: productName,
-        size: selectedSize,
-        color: color,
-        price: price,
-        floorPrice: floorPrice,
-        description: desc,
-        vendor: "STAF PICKS",
-        condition: selectedCondition,
-        department: department,
-        category: category,
-        subcategory: selectedSubCategory,
-        tag: [tags],
-      }));
+   
       
       const responseData = await response.json();
       console.log("Response:", responseData);
