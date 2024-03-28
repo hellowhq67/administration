@@ -7,7 +7,7 @@ const nextConfig = {
         headers: [
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://localhost:3000", // Set your frontend origin
+            value: "https://grailed-pi.vercel.app", // Set your frontend origin
           },
           {
             key: "Access-Control-Allow-Methods",
